@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+h2{
+    text-align: center;
+}
+
+#computer{
+    display: flex;
+   border: solid black 1px;
+}
+#countWin{
+    padding-right: 10px;
+}
+
+#reset{
+    text-decoration-line: none;
+    border-radius: 20px;
+    width: 80px;
+    font-size: 2rem;
+    margin-left: 2%;
+}
