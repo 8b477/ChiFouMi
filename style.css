@@ -10,6 +10,7 @@ html{
 
 body{
     font-size: 1.6rem;
+    background-color: burlywood;
 }
 
 #container{
@@ -29,8 +30,8 @@ h2{
 }
 
 #computer{
-    display: flex;
-   border: solid black 1px;
+    display: block;
+    border: solid black 1px;
 }
 #countWin{
     padding-right: 10px;
@@ -41,5 +42,43 @@ h2{
     border-radius: 20px;
     width: 80px;
     font-size: 2rem;
-    margin-left: 2%;
+    margin-left: 48%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+p{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#setWin{
+    color: indianred;
+    font-size: 3rem;
+}
+
+#règles{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+ul li{
+    padding-top: 1%;
+}
+
+h3{
+    text-decoration-line: underline;
+
+}
+
+#won{
+    padding: 1%;
+    border: solid red 2px;
+    width: 15%;
+    margin-left: 43%;
+    border-radius: 15px;
+    font-size: 6rem;
+    margin-bottom: 2%;
 }

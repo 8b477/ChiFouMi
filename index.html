@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<h1>Choice !!</h1>
+<h1>Pierre - Papier - Ciseaux</h1>
     <div id="container">
 
         <div id="player">
@@ -22,13 +22,25 @@
                 <img src="images/ciseau).png" alt="ciseau" height="180px" width="180px">
             </button>
         </div>
-        <div id="computer"></div>
-        <p>Victoire: <span id="countWin"></span>Défaite: <span id="countLoose"></span></p>
-        <button type="button" id="reset"><a href="./index.html">Reset</a></button>
     </div>
+
+<div id="computer"></div>
+<p id="setWin">Victoire: <span id="countWin"></span>Défaite: <span id="countLoose"></span></p>
+<button type="button" id="reset"><a href="./index.html">Reset</a></button>
 
     <h2 id="won"></h2>
 
+    <div id="règles">
+        <h2>Comment jouer ?!</h2>
+        <p>Choisi une des propositions l'ordinateur en choisis une aussi en mode aléatoire.
+            <h3>Règles :</h3>
+                <ul>
+                    <li>- La pierre bat le ciseaux.</li>
+                    <li>- La feuille bat la pierre.</li>
+                    <li>- Le ciseaux bat la feuille.</li>
+            </ul>
+        </p>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>

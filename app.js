@@ -27,12 +27,12 @@ let jeu = function (elements, equality, loose, win){
         }
         else if(computerPlay[randomNumb] === win){
             won.innerHTML = "Gagné !"
-            let count = countWin++;
+            count = countWin++;
             countId.innerHTML = count;
         }
         else{
             won.innerHTML = "Perdu !"
-            let countWw = countLoose++;
+            countWw = countLoose++;
             countIdTwo.innerHTML = countWw;
         }
     })
